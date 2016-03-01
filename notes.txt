@@ -1,0 +1,14 @@
+scriptr notes
+
+- explanantion of how to setup Github access token w/ correct permissions missing
+- github repo initialization can get in a weird state, need to add files
+- clicking run should save & run
+- initializing a global as a number is difficult as you MUST set to a number first.
+- console.log doesn't take a variable number of args
+- doesn't seem like you can stick arrays in globals contrary to documentation
+
+	if (!storage.global.traffic) {
+	  storage.global.traffic = new Array();
+	}
+
+- arrays are getting serialized and failing.
